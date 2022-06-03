@@ -11,7 +11,6 @@ from selenium.webdriver.common.by import By
 
 def get_names():
     s = Service('chromedriver.exe')
-    # print(num)
     WINDOW_SIZE = '1920,1080'
 
     chrome_options = Options()
